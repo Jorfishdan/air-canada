@@ -1,0 +1,22 @@
+@use "../src/styles/partials/mixins" as *;
+@use "../src/styles/partials/resets" as *;
+@use "../src/styles/partials/typography" as *;
+@use "../src/styles/partials/variables" as *;
+
+.App {
+    background-color: $blue;
+
+    &__test1 {
+        color:$pink;
+        font-weight: 400;
+    }
+    &__test2 {
+        color:$pink;
+        font-weight: 600;
+    }
+    &__test3 {
+        color:$pink;
+        font-weight: 500;
+    }
+
+}
