@@ -1,3 +1,4 @@
+import "./App.scss";
 import magnify from "../src/assets/images/magnify.svg";
 import logoDark from "../src/assets/images/logoDark.svg";
 import logoLight from "../src/assets/images/logoLight.svg";
@@ -13,7 +14,9 @@ import socials from "../src/assets/images/socials.svg";
 function App() {
   return (
     <div className="App">
-      <p>hiii</p>
+      <p className="App__test1">normal font</p>
+      <p className="App__test2">bold font</p>
+      <p className="App__test3">semi-bold font</p>
       <img src={magnify} alt="this is a test" />
       <img src={logoDark} alt="this is a test" />
       <img src={logoLight} alt="this is a test" />
