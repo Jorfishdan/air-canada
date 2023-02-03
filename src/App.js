@@ -6,6 +6,7 @@ import ExclusiveOffersBar from "./components/ExclusiveOffersBar/ExclusiveOffersB
 import Hero from "./components/Hero/Hero";
 import CardUnlock from "./components/CardUnlock/CardUnlock";
 import CurrentDealsCard from "./components/CurrentDealsCard/CurrentDealsCard";
+import EStoreCard from "./components/EStoreCard/EStoreCard";
 import DoMore from "./components/DoMore/DoMore";
 
 function App() {
@@ -16,11 +17,12 @@ function App() {
       <ExclusiveOffersBar />
       <CardFavorite />
       <CurrentDealsCard />
+      <EStoreCard />
       <CardUnlock />
       <DoMore />
-      <Footer />
-    </>
-  );
+			<Footer />
+		</>
+	);
 }
 
 export default App;
