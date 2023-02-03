@@ -6,19 +6,24 @@ import MichaelCardFavorite from "../../components/MichaelCardFavorite/MichaelCar
 import EliteStatusPerks from "../../components/EliteStatusPerks/EliteStatusPerks";
 import MichaelDoMore from "../../components/MichaelDoMore/MichaelDoMore";
 
+import MichaelHeader from "../../components/MichaelHeader/MichaelHeader";
+import EliteWrapper from "../../components/EliteWrapper/EliteWrapper";
+import MichaelLinks from "../../components/MichaelLinks/MichaelLinks";
 
 function Michael () {
     return(
         <>
+        <MichaelHeader />
         <MichaelHero />
         <MichaelBanner />
         <UpcomingTrips />
         <EliteStatusPerks />
         <MichaelCardFavorite />
         <MichaelDoMore />
+        <MichaelLinks />
+        <EliteWrapper />
         </>
     )
 
 }
-
 export default Michael;
