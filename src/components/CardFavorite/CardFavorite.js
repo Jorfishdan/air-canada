@@ -7,7 +7,7 @@ import lulu from "../../assets/images/lululemon.webp";
 
 function CardFavorite() {
   return (
-    <section>
+    <section className="favorite">
       <div className="favoriteheader">
         <img src={heart} alt="hear" className="cardfavorite__heart1" />
         <h1 className="favoriteheader__title">Your Favorites</h1>

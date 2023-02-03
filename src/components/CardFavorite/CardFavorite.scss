@@ -3,6 +3,10 @@
 @use "../../styles/partials/typography" as *;
 @use "../../styles/partials/variables" as *;
 
+.favorite {
+  width: 66%;
+}
+
 .favoritewrapper {
   display: flex;
 }
@@ -27,7 +31,8 @@
   &__heart {
     fill: red;
     position: relative;
-    left: 7.5rem;
+    left: 7rem;
+    top: 1rem;
     z-index: 1;
   }
   &__heart1 {
@@ -79,6 +84,6 @@
   }
 }
 .favoritebottom {
-  padding-right: 4rem;
+  padding-right: 8rem;
   text-align: right;
 }
