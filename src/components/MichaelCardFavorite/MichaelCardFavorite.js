@@ -10,28 +10,28 @@ function MichaelCardFavorite() {
     <section className="michaelfavorite">
       <div className="michaelfavoriteheader">
         <img className="card__bookmark" src={bookMark} alt="bookmark" />
-        <h1 className="favoriteheader__title">Favorite Stores</h1>
+        <h1 className="mikefavoriteheader__title">Favorite Stores</h1>
       </div>
       <div className="favoritewrapper">
         <div className="cardfavorite">
-          <img className="card__ssense" src={ssense} alt="get ssense" />
+          <img className="mikecard__ssense" src={ssense} alt="get ssense" />
   
         </div>
         <div className="cardfavorite">
-        <img className="card__ssense" src={lulu} alt="get ssense" />
+        <img className="mikecard__ssense" src={lulu} alt="get ssense" />
          
         </div>
         <div className="cardfavorite">
-        <img className="card__ssense" src={apple} alt="get ssense" />
+        <img className="mikecard__ssense" src={apple} alt="get ssense" />
       
         </div>
       </div>
-      <div className="favebuttons">
-        <p className="favebuttons__1">Browse Offers</p>
-        <p className="favebuttons__2">Browse Offers</p>
-        <p className="favebuttons__3">Browse Offers</p>
+      <div className="mikefavebuttons">
+        <p className="mikefavebuttons__1">Browse Offers</p>
+        <p className="mikefavebuttons__2">Browse Offers</p>
+        <p className="mikefavebuttons__3">Browse Offers</p>
       </div>
-      <p className="favoritebottom">View All > </p>
+      <p className="mikefavoritebottom">View All > </p>
     </section>
   );
 }
