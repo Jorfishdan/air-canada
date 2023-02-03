@@ -1,7 +1,12 @@
 import './ExclusiveOffersBar.scss'
 
 
-function ExclusiveOffersBar() {
+function ExclusiveOffersBar({ setIsModalOpen }) {
+
+    function clickHandler() {
+        setIsModalOpen(true);
+    };
+
    return (
        <>  
        <div className="exOffers">
@@ -15,7 +20,7 @@ function ExclusiveOffersBar() {
            <div className="exOffers__wrapper">
            <p className="exOffers__eStore">eStore</p>
            </div>
-           <div className="exOffers__wrapper">
+           <div className="exOffers__wrapper" onClick={clickHandler}>
            <p className="exOffers__manage">Manage Your Page</p>
            </div>
           
