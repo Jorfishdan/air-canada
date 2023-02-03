@@ -4,6 +4,7 @@ import MichaelCardFavorite from "../../components/MichaelCardFavorite/MichaelCar
 import EliteStatusPerks from "../../components/EliteStatusPerks/EliteStatusPerks";
 import KeepStatus from "../../components/KeepStatus/KeepStatus";
 import MichaelBanner from '../MichaelBanner/MichaelBanner';
+import Transactions from '../Transactions/Transactions';
 
 export default function EliteWrapper() {
     return (
@@ -16,6 +17,8 @@ export default function EliteWrapper() {
             </div>
             <div className="elitewrapper__right">
                 <MichaelBanner />
+                <Transactions />
+                
             </div>
         </section>
     )
