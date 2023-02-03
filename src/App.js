@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import ExclusiveOffersBar from "./components/ExclusiveOffersBar/ExclusiveOffersBar";
 import Hero from "./components/Hero/Hero";
+import CurrentDealsCard from "./components/CurrentDealsCard/CurrentDealsCard";
 
 function App() {
   return (
@@ -12,9 +13,10 @@ function App() {
       <Hero />
       <ExclusiveOffersBar />
       <CardFavorite />
-      <Footer />
-    </>
-  );
+      <CurrentDealsCard />
+			<Footer />
+		</>
+	);
 }
 
 export default App;
