@@ -5,6 +5,7 @@ import Footer from "./components/Footer/Footer";
 import ExclusiveOffersBar from "./components/ExclusiveOffersBar/ExclusiveOffersBar";
 import Hero from "./components/Hero/Hero";
 import CurrentDealsCard from "./components/CurrentDealsCard/CurrentDealsCard";
+import EStoreCard from "./components/EStoreCard/EStoreCard";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ExclusiveOffersBar />
       <CardFavorite />
       <CurrentDealsCard />
+      <EStoreCard />
 			<Footer />
 		</>
 	);
