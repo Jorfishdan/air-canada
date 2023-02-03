@@ -1,0 +1,96 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/resets" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
+
+.rachelheader {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 9rem;
+  padding: 0 3.1rem;
+
+  &__logo-container {
+    display: flex;
+    align-items: center;
+  }
+
+  &__menu-logo {
+    height: 3.4rem;
+    padding-right: 3rem;
+  }
+
+  &__logo {
+    height: 3.9rem;
+  }
+}
+
+.rachelheader-nav {
+  display: flex;
+  padding-right: 2rem;
+
+  &__links {
+    display: flex;
+    align-items: center;
+  }
+
+  &__search,
+  &__access,
+  &__language {
+    font-family: "OpenSans";
+    font-size: 1.5rem;
+    font-weight: 500;
+    background-color: transparent;
+    color: white;
+    background-repeat: no-repeat;
+  }
+
+  &__search {
+    background-image: url("../../assets/images/search_white_24dp.svg");
+    width: 10rem;
+    background-position-x: right;
+    padding-right: 2rem;
+    margin-right: 1.6rem;
+  }
+
+  &__access {
+    background-image: url("../../assets/images/chevron_right_white_24dp.svg");
+    width: 13rem;
+    background-position-x: right;
+    padding-right: 2rem;
+    margin-right: 1.6rem;
+  }
+
+  &__language-container {
+    display: flex;
+    align-items: center;
+    width: 16rem;
+    margin-right: 1.6rem;
+  }
+
+  &__globe {
+    height: 1.6rem;
+  }
+
+  &__language {
+    background-image: url("../../assets/images/expand_more_white_24dp.svg");
+    background-position-x: right;
+    padding-right: 4rem;
+    width: 9rem;
+  }
+
+  &__account {
+    display: flex;
+    align-items: center;
+    padding-left: 6rem;
+    border-left: 1px solid grey;
+  }
+
+  &__info {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: white;
+    padding-left: 1rem;
+  }
+}
