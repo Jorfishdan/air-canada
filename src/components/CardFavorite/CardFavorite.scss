@@ -29,16 +29,12 @@
     box-shadow: 0px 0px 5px 5px rgba(11, 11, 11, 0.4);
   }
   &__heart {
-    fill: red;
     position: relative;
     left: 7rem;
     top: 1rem;
     z-index: 1;
   }
   &__heart1 {
-    fill: red;
-    width: 2rem;
-    height: 2rem;
     padding: 1rem;
   }
   &__logo {

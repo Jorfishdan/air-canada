@@ -2,27 +2,27 @@ import "./CardFavorite.scss";
 import heart from "../../assets/images/heart.svg";
 import starbucks from "../../assets/images/starbucks.png";
 import uber from "../../assets/images/uber.png";
-import fav from "../../assets/images/fav.SVG";
+import heart2 from "../../assets/images/heart2.png";
 import lulu from "../../assets/images/lululemon.webp";
 
 function CardFavorite() {
   return (
     <section className="favorite">
       <div className="favoriteheader">
-        <img src={heart} alt="hear" className="cardfavorite__heart1" />
+        <img src={heart2} alt="hear" className="cardfavorite__heart1" />
         <h1 className="favoriteheader__title">Your Favorites</h1>
       </div>
       <div className="favoritewrapper">
         <div className="cardfavorite">
-          <img src={heart} alt="heart" className="cardfavorite__heart" />
+          <img src={heart2} alt="heart" className="cardfavorite__heart" />
           <img src={starbucks} alt="sbucks" className="cardfavorite__logo" />
         </div>
         <div className="cardfavorite">
-          <img src={heart} alt="heart" className="cardfavorite__heart" />
+          <img src={heart2} alt="heart" className="cardfavorite__heart" />
           <img src={uber} alt="sbucks" className="cardfavorite__logo" />
         </div>
         <div className="cardfavorite">
-          <img src={heart} alt="heart" className="cardfavorite__heart" />
+          <img src={heart2} alt="heart" className="cardfavorite__heart" />
           <img src={lulu} alt="sbucks" className="cardfavorite__logo" />
         </div>
       </div>
