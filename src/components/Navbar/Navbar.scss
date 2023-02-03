@@ -1,0 +1,31 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/resets" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 0 2.5rem;
+
+    &__link,
+    &__link-active {
+        height: 7.7rem;
+        font-size: 1.9rem;
+        font-weight: 500;
+        padding: 2.2rem 0.8rem;
+        margin-right: 5rem;
+    }
+
+    &__link {
+
+        &:hover {
+            background-color: rgb(245, 245, 245);
+        }
+    }
+
+    &__link-active{
+        color: $blue;
+        border-bottom: 3px solid $blue;
+    }
+}

@@ -3,9 +3,11 @@ import HeaderLogo from "../../assets/images/header-logo-dark.PNG";
 import GlobeImage from "../../assets/images/language_white_24dp.svg";
 import AccountImage from "../../assets/images/perm_identity_white_24dp.svg";
 import MenuIcon from "../../assets/images/menu_white_24dp.svg";
+import Navbar from "../Navbar/Navbar";
 
 export default function Header() {
 	return (
+        <>
 		<header className="header">
 			<div className="header__logo-container">
                 <img className="header__menu-logo" src={MenuIcon} alt="menu icon"></img>
@@ -20,7 +22,7 @@ export default function Header() {
 					<div className="header-nav__language-container">
 						<img
 							className="header-nav__globe"
-                            alt="globe image"
+                            alt="globe logo"
 							src={GlobeImage}
 						></img>
 						<button className="header-nav__language">
@@ -35,5 +37,7 @@ export default function Header() {
                 </section>
 			</nav>
 		</header>
+        <Navbar />
+        </>
 	);
 }
