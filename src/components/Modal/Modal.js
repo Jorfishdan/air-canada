@@ -4,7 +4,12 @@ import SelectionBox from "../SelectionBox/SelectionBox";
 import { useState } from "react";
 import SelectionBoxUnchecked from "../SelectionBoxUnchecked/SelectionBoxUnchecked";
 
-export default function Modal({ setIsModalOpen }) {
+export default function Modal({ setIsModalOpen, setIsRowShowing }) {
+
+    function clickHandler() {
+        setIsModalOpen(false);
+        setIsRowShowing(true);
+    }
 	return (
 		<>
 			<div className="modal-overlay"></div>
@@ -59,7 +64,7 @@ export default function Modal({ setIsModalOpen }) {
 				<div className="modal__button-container">
 					<button
 						className="modal__button"
-						onClick={() => setIsModalOpen(false)}
+						onClick={clickHandler}
 					>
 						Confirm
 					</button>
