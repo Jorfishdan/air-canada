@@ -3,6 +3,13 @@
 @use "../../styles/partials/typography" as *;
 @use "../../styles/partials/variables" as *;
 
-.main {
-    position: relative;
+.everyday {
+  display: flex;
+  padding: 4rem;
+  &__left {
+    width: 55%;
+  }
+  &__right {
+    width: 35%;
+  }
 }
