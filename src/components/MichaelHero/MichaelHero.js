@@ -15,7 +15,7 @@ function MichaelHero() {
       <div className="michael__text-container">
         <h1 className="michael__title">Good afternoon, Michael</h1>
         <p className="michael__tagline">
-          Earn faster and travel better with an Aeroplan credit card.
+          Keep flying and earn points to benefit from the Super Elite Status.
         </p>
         <button className="michael__button">Learn More</button>
       </div>
