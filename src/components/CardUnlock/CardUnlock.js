@@ -1,5 +1,6 @@
 import "./CardUnlock.scss";
 import unlock from "../../assets/images/unlock.svg";
+import viewAll from "../../assets/images/viewAll.png";
 
 function CardUnlock() {
   return (
@@ -13,7 +14,10 @@ function CardUnlock() {
         <div className="cardunlock uberredeem"></div>
         <div className="cardunlock uberone"></div>
       </div>
-      <p className="unlockbottom">View All ></p>
+
+      <div className="unlockbottom">
+        <img src={viewAll} alt="viewall" className="unlockbottom__text" />
+      </div>
     </section>
   );
 }

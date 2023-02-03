@@ -4,7 +4,6 @@
 @use "../../styles/partials/variables" as *;
 
 .favorite {
-  width: 66%;
 }
 
 .favoritewrapper {
@@ -12,8 +11,8 @@
 }
 
 .cardfavorite {
-  height: 20rem;
-  width: 20rem;
+  height: 30rem;
+  width: 30rem;
   border: 1px solid rgba(128, 128, 128, 0.3);
   border-radius: 1.2rem;
   box-shadow: 0px 0px 5px 5px rgba(128, 128, 128, 0.3);
@@ -30,8 +29,7 @@
   }
   &__heart {
     position: relative;
-    left: 7rem;
-    top: 1rem;
+    left: 10rem;
     z-index: 1;
   }
   &__heart1 {
@@ -51,8 +49,9 @@
 
 .favebuttons {
   display: flex;
+  justify-content: space-evenly;
   &__1 {
-    width: 20rem;
+    width: 25rem;
     margin: 1rem;
     background-color: #007004;
     color: white;
@@ -61,7 +60,7 @@
     font-weight: bold;
   }
   &__2 {
-    width: 20rem;
+    width: 25rem;
     margin: 1rem;
     background-color: black;
     color: white;
@@ -70,7 +69,7 @@
     font-weight: bold;
   }
   &__3 {
-    width: 20rem;
+    width: 25rem;
     margin: 1rem;
     background-color: #d41935;
     color: white;
@@ -80,5 +79,9 @@
   }
 }
 .favoritebottom {
-  padding-left: 58rem;
+  display: flex;
+  justify-content: end;
+  &__text {
+    width: 11%;
+  }
 }

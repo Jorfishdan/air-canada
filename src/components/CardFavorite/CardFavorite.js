@@ -3,6 +3,7 @@ import starbucks from "../../assets/images/starbucks.png";
 import uber from "../../assets/images/uber.png";
 import heart2 from "../../assets/images/heart2.png";
 import lulu from "../../assets/images/lululemon.webp";
+import viewAll from "../../assets/images/viewAll.png";
 
 function CardFavorite() {
   return (
@@ -30,7 +31,9 @@ function CardFavorite() {
         <p className="favebuttons__2">Browse Offers</p>
         <p className="favebuttons__3">Browse Offers</p>
       </div>
-      <p className="favoritebottom">View All ></p>
+      <div className="favoritebottom">
+        <img src={viewAll} alt="viewall" className="favoritebottom__text" />
+      </div>
     </section>
   );
 }

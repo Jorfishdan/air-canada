@@ -7,27 +7,26 @@
   display: flex;
   flex-direction: column;
 
-  &__wrapper{
+  &__wrapper {
     display: flex;
     flex-direction: row;
   }
 
   &__header {
-    width:100%;
+    width: 100%;
   }
 
-  &__mega-wrapper{
+  &__mega-wrapper {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
     align-items: center;
   }
-  
 }
 
-.card {
-  height: 24rem;
-  width: 25rem;
+.ecard {
+  height: 30rem;
+  width: 28rem;
   border: 1px solid rgba(128, 128, 128, 0.3);
   border-radius: 1.2rem;
   box-shadow: 0px 0px 5px 5px rgba(128, 128, 128, 0.3);
@@ -42,39 +41,44 @@
     margin-top: -0.2px;
     box-shadow: 0px 0px 5px 5px rgba(11, 11, 11, 0.4);
   }
+  &__view {
+    width: 11%;
+  }
+  &__view-wrapper {
+    display: flex;
+    justify-content: end;
+    margin-left: 5.5rem;
+  }
 }
 
 .eStore {
-  &__header{
+  &__header {
     font-size: 2.8rem;
     margin-bottom: 1rem;
-  
-}
-&__view {
-  width:33%;
-}
+  }
+  &__view {
+    width: 33%;
+  }
 
-&__text-wrapper{
-  display:flex;
-  flex-direction:column;
-}
+  &__text-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
 
-&__bag{
-  width:5%;
-  height:10%;
-}
+  &__bag {
+    width: 5%;
+    height: 10%;
+  }
 }
 
 .card1 {
-  width:100%;
+  width: 100%;
 }
 
 .card2 {
-  width:100%;
+  width: 100%;
 }
 
 .card3 {
-  width:100%;
+  width: 100%;
 }
-
-
