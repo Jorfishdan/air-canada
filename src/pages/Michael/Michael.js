@@ -10,20 +10,15 @@ import MichaelHeader from "../../components/MichaelHeader/MichaelHeader";
 import EliteWrapper from "../../components/EliteWrapper/EliteWrapper";
 import MichaelLinks from "../../components/MichaelLinks/MichaelLinks";
 
-function Michael () {
-    return(
-        <>
-        <MichaelHeader />
-        <MichaelHero />
-        <MichaelBanner />
-        <UpcomingTrips />
-        <EliteStatusPerks />
-        <MichaelCardFavorite />
-        <MichaelDoMore />
-        <MichaelLinks />
-        <EliteWrapper />
-        </>
-    )
-
+function Michael() {
+  return (
+    <>
+      <MichaelHeader />
+      <MichaelHero />
+      <MichaelLinks />
+      <EliteWrapper />
+      <MichaelDoMore />
+    </>
+  );
 }
 export default Michael;
