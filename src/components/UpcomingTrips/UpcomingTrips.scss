@@ -2,6 +2,8 @@
 @use "../../styles/partials/variables" as *;
 
 .tripsCard {
-    height: 100rem;
-    width: 50rem;
+
+    &__image {
+        width: 97%;
+    }
 }
