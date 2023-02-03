@@ -46,13 +46,18 @@
 
         &--shop {
             background-image: url('../../assets/images/shop-store.PNG');
-            background-size: cover;
+            background-size: cover;         
         }
 
         &--book {
             background-image: url('../../assets/images/book-flights.PNG');
-            background-size: cover;
+            background-size: cover;    
         }
+      }
+
+      &__bottom {
+        display: flex;
+        justify-content: flex-end;
       }
 }
 

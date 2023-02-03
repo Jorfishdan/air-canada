@@ -14,7 +14,7 @@ export default function KeepStatus() {
             </div>
 
             <div className="keepstatus__bottom">
-                <img src={viewAll} alt="view all option" className="keepstatus__bottom-text"></img>
+                <span className="keepstatus__bottom-text">{`View All >`}</span>
             </div>
         </section>
     )
