@@ -50,8 +50,9 @@
 
 .mikefavebuttons {
   display: flex;
+  justify-content: center;
   &__1 {
-    width: 20rem;
+    width: 25rem;
     margin: 1rem;
     background-color: black;
     color: white;
@@ -60,16 +61,16 @@
     font-weight: bold;
   }
   &__2 {
-    width: 20rem;
-    margin: 1rem;
+    width: 25rem;
+    margin: 1rem 2.8rem;
     background-color: #d22030;
     color: white;
     text-align: center;
-    padding: 1rem 0rem;
+    padding: 1rem 1rem;
     font-weight: bold;
   }
   &__3 {
-    width: 20rem;
+    width: 25rem;
     margin: 1rem;
     background-color: black;
     color: white;
@@ -78,8 +79,11 @@
     font-weight: bold;
   }
 }
-.mikeavoritebottom {
-  padding-left: 58rem;
+.mikefavoritebottom {
+  display: flex;
+  justify-content: end;
+  padding-right: 1rem;
+  font-weight: bold;
 }
 
 .mikecard {
