@@ -21,7 +21,9 @@ export default function Modal({ setIsModalOpen }) {
 					</h2>
 				</div>
 				<nav className="modal__links-container">
-					<span className="modal__link modal__link--active">Everyday Essentials</span>
+					<span className="modal__link modal__link--active">
+						Everyday Essentials
+					</span>
 					<span className="modal__link">Travel</span>
 					<span className="modal__link">eStore</span>
 					<span className="modal__link">Manage Your Page</span>
@@ -55,7 +57,12 @@ export default function Modal({ setIsModalOpen }) {
 					</div>
 				</section>
 				<div className="modal__button-container">
-					<button className="modal__button" onClick={() => setIsModalOpen(false)}>Confirm</button>
+					<button
+						className="modal__button"
+						onClick={() => setIsModalOpen(false)}
+					>
+						Confirm
+					</button>
 				</div>
 			</section>
 		</>
