@@ -4,6 +4,7 @@ import GlobeImage from "../../assets/images/language_white_24dp.svg";
 import AccountImage from "../../assets/images/perm_identity_white_24dp.svg";
 import MenuIcon from "../../assets/images/menu_white_24dp.svg";
 import Navbar from "../Navbar/Navbar";
+import { NavLink } from "react-router-dom";
 
 export default function RachelHeader() {
   return (
@@ -40,7 +41,9 @@ export default function RachelHeader() {
               alt="account logo"
               src={AccountImage}
             ></img>
-            <span className="rachelheader-nav__info">Rachel</span>
+            <NavLink to="/michael">
+              <span className="rachelheader-nav__info">Rachel</span>
+            </NavLink>
             <span className="rachelheader-nav__info">10,000 pts</span>
           </section>
         </nav>
