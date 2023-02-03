@@ -4,6 +4,8 @@ import MichaelBanner from "../../components/MichaelBanner/MichaelBanner";
 import UpcomingTrips from "../../components/UpcomingTrips/UpcomingTrips";
 import MichaelCardFavorite from "../../components/MichaelCardFavorite/MichaelCardFavorite";
 import EliteStatusPerks from "../../components/EliteStatusPerks/EliteStatusPerks";
+import MichaelDoMore from "../../components/MichaelDoMore/MichaelDoMore";
+
 
 function Michael () {
     return(
@@ -13,6 +15,7 @@ function Michael () {
         <UpcomingTrips />
         <EliteStatusPerks />
         <MichaelCardFavorite />
+        <MichaelDoMore />
         </>
     )
 

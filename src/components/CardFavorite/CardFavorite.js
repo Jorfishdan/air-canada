@@ -1,7 +1,7 @@
 import "./CardFavorite.scss";
 import starbucks from "../../assets/images/starbucks.png";
 import uber from "../../assets/images/uber.png";
-import heart2 from "../../assets/images/heart2.png";
+import heart2 from "../../assets/images/theHeart.png";
 import lulu from "../../assets/images/lululemon.webp";
 import viewAll from "../../assets/images/viewAll.png";
 
