@@ -1,7 +1,6 @@
 import "./Modal.scss";
 import CloseIcon from "../../assets/images/close-icon.png";
 import SelectionBox from "../SelectionBox/SelectionBox";
-import { useState } from "react";
 import SelectionBoxUnchecked from "../SelectionBoxUnchecked/SelectionBoxUnchecked";
 
 export default function Modal({ setIsModalOpen, setIsRowShowing }) {
@@ -39,9 +38,6 @@ export default function Modal({ setIsModalOpen, setIsRowShowing }) {
 							Current Selection
 						</span>
 						<SelectionBox text={"Current Deals"} />
-						<SelectionBoxUnchecked
-							text={"eStore Popular Retailers"}
-						/>
 						<SelectionBox text={"Favorites"} />
 						<SelectionBox text={"Unlock Offers"} />
 					</div>
@@ -59,6 +55,9 @@ export default function Modal({ setIsModalOpen, setIsRowShowing }) {
 							text={"Link to unlock UberEats offers"}
 						/>
 						<SelectionBoxUnchecked text={"LCBO offers"} />
+						<SelectionBoxUnchecked
+							text={"eStore Popular Retailers"}
+						/>
 					</div>
 				</section>
 				<div className="modal__button-container">
