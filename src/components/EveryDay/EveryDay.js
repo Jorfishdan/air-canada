@@ -2,6 +2,7 @@ import CardFavorite from "../CardFavorite/CardFavorite";
 import CardUnlock from "../CardUnlock/CardUnlock";
 import CurrentDealsCard from "../CurrentDealsCard/CurrentDealsCard";
 import RightBanner from "../RightBanner/RightBanner";
+import EStoreCard from "../EStoreCard/EStoreCard";
 import "./EveryDay.scss";
 
 function EveryDay() {
@@ -10,6 +11,7 @@ function EveryDay() {
       <div className="everyday__left">
         <CardFavorite />
         <CurrentDealsCard />
+        <EStoreCard />
         <CardUnlock />
       </div>
       <div className="everyday__right">
