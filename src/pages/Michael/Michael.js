@@ -2,6 +2,7 @@ import "./Michael.scss"
 import MichaelHero from "../../components/MichaelHero";
 import MichaelBanner from "../../components/MichaelBanner"
 import UpcomingTrips from "../../components/UpcomingTrips/UpcomingTrips";
+import MichaelCardFavorite from "../../components/MichaelCardFavorite/MichaelCardFavorite";
 
 function Michael () {
     return(
@@ -9,6 +10,7 @@ function Michael () {
         <MichaelHero />
         <MichaelBanner />
         <UpcomingTrips />
+        <MichaelCardFavorite />
         </>
     )
 }
