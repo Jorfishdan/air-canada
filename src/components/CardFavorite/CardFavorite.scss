@@ -29,7 +29,7 @@
   }
   &__heart {
     position: relative;
-    left: 10rem;
+    left: 9rem;
     z-index: 1;
   }
   &__heart1 {
@@ -45,6 +45,10 @@
 .favoriteheader {
   display: flex;
   align-items: center;
+  &__title {
+    font-size: 2.8rem;
+    font-weight: 600;
+  }
 }
 
 .favebuttons {
