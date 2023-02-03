@@ -2,8 +2,9 @@
 @use "../../styles/partials/variables" as *;
 
 .tripsCard {
-
-    &__image {
-        width: 97%;
-    }
+  &__image {
+    width: 95%;
+    padding-left: 4rem;
+    padding-top: 2rem;
+  }
 }
