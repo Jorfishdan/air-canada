@@ -20,12 +20,13 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
+    align-items: center;
   }
   
 }
 
 .card {
-  height: 32rem;
+  height: 24rem;
   width: 25rem;
   border: 1px solid rgba(128, 128, 128, 0.3);
   border-radius: 1.2rem;
@@ -46,9 +47,11 @@
 .eStore {
   &__header{
     font-size: 2.8rem;
+    margin-bottom: 1rem;
+  
 }
 &__view {
-  width:30%;
+  width:33%;
 }
 
 &__text-wrapper{
@@ -57,7 +60,8 @@
 }
 
 &__bag{
-  width:10%;
+  width:5%;
+  height:10%;
 }
 }
 

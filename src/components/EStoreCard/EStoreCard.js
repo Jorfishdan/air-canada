@@ -4,6 +4,7 @@ import theRedBag from "../../assets/images/theRedBag.png";
 import dyson from "../../assets/images/dyson.png";
 import rename from "../../assets/images/rename.png";
 import bestBuy from "../../assets/images/bestBuy.png";
+import viewAll from "../../assets/images/viewAll.png";
 
 function eStoreCard() {
   return (
@@ -26,10 +27,12 @@ function eStoreCard() {
         <img className="card3" src={dyson} alt="get a dyson" />
       </div>
       </div>
+      <div className="card__view-wrapper">
+      <img className="card__view" src={viewAll} alt="click to view all the products in the category" />
+      </div>
     </section>
   );
 }
 
 export default eStoreCard;
 
-{/* <img className="wrapper__header"src={EStoreHeader} alt="header of eStore category" /> */}
