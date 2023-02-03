@@ -1,5 +1,4 @@
 import "./CardFavorite.scss";
-import heart from "../../assets/images/heart.svg";
 import starbucks from "../../assets/images/starbucks.png";
 import uber from "../../assets/images/uber.png";
 import heart2 from "../../assets/images/heart2.png";
