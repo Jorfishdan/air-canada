@@ -10,10 +10,12 @@ import plane from "../src/assets/images/plane.svg";
 import calendar from "../src/assets/images/calendar.svg";
 import socials from "../src/assets/images/socials.svg";
 import Footer from "./components/Footer/Footer";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
     <>
+    <Header />
       <div className="App">
         <p className="App__test1">normal font</p>
         <p className="App__test2">bold font</p>
