@@ -1,0 +1,85 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/resets" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
+
+.favorite {
+  width: 66%;
+}
+
+.favoritewrapper {
+  display: flex;
+}
+
+.cardfavorite {
+  height: 20rem;
+  width: 20rem;
+  border: 1px solid rgba(128, 128, 128, 0.3);
+  border-radius: 1.2rem;
+  box-shadow: 0px 0px 5px 5px rgba(128, 128, 128, 0.3);
+  margin: 1rem;
+  transition: 0.5s;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    margin-top: -0.2px;
+    box-shadow: 0px 0px 5px 5px rgba(11, 11, 11, 0.4);
+  }
+  &__heart {
+    position: relative;
+    left: 7rem;
+    top: 1rem;
+    z-index: 1;
+  }
+  &__heart1 {
+    padding: 1rem;
+  }
+  &__logo {
+    width: 80%;
+    position: relative;
+    bottom: 1rem;
+  }
+}
+
+.favoriteheader {
+  display: flex;
+  align-items: center;
+}
+
+.favebuttons {
+  display: flex;
+  &__1 {
+    width: 20rem;
+    margin: 1rem;
+    background-color: #007004;
+    color: white;
+    text-align: center;
+    padding: 1rem 0rem;
+    font-weight: bold;
+  }
+  &__2 {
+    width: 20rem;
+    margin: 1rem;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem 0rem;
+    font-weight: bold;
+  }
+  &__3 {
+    width: 20rem;
+    margin: 1rem;
+    background-color: #d41935;
+    color: white;
+    text-align: center;
+    padding: 1rem 0rem;
+    font-weight: bold;
+  }
+}
+.favoritebottom {
+  padding-right: 8rem;
+  text-align: right;
+}
