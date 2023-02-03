@@ -27,7 +27,9 @@ function MichaelCardFavorite() {
         <p className="mikefavebuttons__2">Browse Offers</p>
         <p className="mikefavebuttons__3">Browse Offers</p>
       </div>
-      <p className="mikefavoritebottom">View All > </p>
+      <div className="mikefavoritebottom">
+        <p>View All > </p>
+      </div>
     </section>
   );
 }
