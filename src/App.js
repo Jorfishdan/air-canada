@@ -6,6 +6,7 @@ import ExclusiveOffersBar from "./components/ExclusiveOffersBar/ExclusiveOffersB
 import Hero from "./components/Hero/Hero";
 import CardUnlock from "./components/CardUnlock/CardUnlock";
 import CurrentDealsCard from "./components/CurrentDealsCard/CurrentDealsCard";
+import DoMore from "./components/DoMore/DoMore";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <CardFavorite />
       <CurrentDealsCard />
       <CardUnlock />
+      <DoMore />
       <Footer />
     </>
   );
