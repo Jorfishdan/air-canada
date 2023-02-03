@@ -5,6 +5,7 @@ import Footer from "./components/Footer/Footer";
 import ExclusiveOffersBar from "./components/ExclusiveOffersBar/ExclusiveOffersBar";
 import Hero from "./components/Hero/Hero";
 import CardUnlock from "./components/CardUnlock/CardUnlock";
+import CurrentDealsCard from "./components/CurrentDealsCard/CurrentDealsCard";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <ExclusiveOffersBar />
       <CardFavorite />
+      <CurrentDealsCard />
       <CardUnlock />
       <Footer />
     </>
