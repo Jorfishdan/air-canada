@@ -6,15 +6,19 @@ function EliteStatusPerks() {
   return (
     <section className="elite__wrapper">
       <div className="elite">
-        <img className="elite1" src={priority} alt="get priority class"/>
+        <img className="elite1" src={priority} alt="get priority class" />
       </div>
 
       <div className="elite">
-      <img className="elite2" src={priorityCheckIn} alt="get priority class"/>
+        <img
+          className="elite2"
+          src={priorityCheckIn}
+          alt="get priority class"
+        />
       </div>
 
       <div className="elite">
-      <img className="elite3" src={upgrade} alt="get priority class"/>
+        <img className="elite3" src={upgrade} alt="get priority class" />
       </div>
     </section>
   );
