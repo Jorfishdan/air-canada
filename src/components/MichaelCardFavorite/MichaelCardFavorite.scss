@@ -4,16 +4,15 @@
 @use "../../styles/partials/variables" as *;
 
 .michaelfavorite {
-  width: 66%;
 }
 
 .favoritewrapper {
   display: flex;
 }
 
-.cardfavorite {
-  height: 20rem;
-  width: 20rem;
+.michaelcardfavorite {
+  height: 27rem;
+  width: 27rem;
   border: 1px solid rgba(128, 128, 128, 0.3);
   border-radius: 1.2rem;
   box-shadow: 0px 0px 5px 5px rgba(128, 128, 128, 0.3);
@@ -51,8 +50,9 @@
 
 .mikefavebuttons {
   display: flex;
+  justify-content: center;
   &__1 {
-    width: 20rem;
+    width: 25rem;
     margin: 1rem;
     background-color: black;
     color: white;
@@ -61,16 +61,16 @@
     font-weight: bold;
   }
   &__2 {
-    width: 20rem;
-    margin: 1rem;
-    background-color: #D22030;
+    width: 25rem;
+    margin: 1rem 2.8rem;
+    background-color: #d22030;
     color: white;
     text-align: center;
-    padding: 1rem 0rem;
+    padding: 1rem 1rem;
     font-weight: bold;
   }
   &__3 {
-    width: 20rem;
+    width: 25rem;
     margin: 1rem;
     background-color: black;
     color: white;
@@ -79,15 +79,18 @@
     font-weight: bold;
   }
 }
-.mikeavoritebottom {
-  padding-left: 58rem;
+.mikefavoritebottom {
+  display: flex;
+  justify-content: end;
+  padding-right: 1rem;
+  font-weight: bold;
 }
 
 .mikecard {
-  &__ssense{
-    width:100%;
+  &__ssense {
+    width: 100%;
   }
-  &__bookmark{
-    width:5%;
+  &__bookmark {
+    width: 5%;
   }
 }
