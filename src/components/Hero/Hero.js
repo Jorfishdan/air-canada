@@ -9,8 +9,8 @@ export default function Hero() {
             </div>
             <div className="hero__text-container">
                 <h1 className="hero__title">Good afternoon, Rachel</h1>
-                <p className="hero__tagline">Earn faster and travel better with an Aeroplan credit card.</p>
-                <button className="hero__button">Learn More</button>
+                <p className="hero__tagline">Earn faster and travel better with your Aeroplan credit card.</p>
+                <button className="hero__button">View Offers</button>
             </div>
         </section>
     )

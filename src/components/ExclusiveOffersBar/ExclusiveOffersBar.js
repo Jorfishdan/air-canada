@@ -11,8 +11,8 @@ function ExclusiveOffersBar({ setIsModalOpen }) {
        <>  
        <div className="exOffers">
        <article className="exOffers__main-wrapper">
-           <div className="exOffers__wrapper">
-           <p className="exOffers__everyday-essentials">Everyday Essential</p>
+           <div className="exOffers__wrapper exOffers__wrapper--active">
+           <p className="exOffers__everyday-essentials">Everyday Essentials</p>
            </div>
            <div className="exOffers__wrapper">
            <p className="exOffers__travel">Travel</p>
