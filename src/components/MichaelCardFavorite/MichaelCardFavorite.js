@@ -7,8 +7,8 @@ import bookMark from "../../assets/images/bookMark.png"
 
 function MichaelCardFavorite() {
   return (
-    <section className="favorite">
-      <div className="favoriteheader">
+    <section className="michaelfavorite">
+      <div className="michaelfavoriteheader">
         <img className="card__bookmark" src={bookMark} alt="bookmark" />
         <h1 className="favoriteheader__title">Favorite Stores</h1>
       </div>
