@@ -8,12 +8,14 @@ import CardUnlock from "./components/CardUnlock/CardUnlock";
 import CurrentDealsCard from "./components/CurrentDealsCard/CurrentDealsCard";
 import EStoreCard from "./components/EStoreCard/EStoreCard";
 import DoMore from "./components/DoMore/DoMore";
+import MichaelHero from "./components/MichaelHero/MichaelHero";
 
 function App() {
   return (
     <>
       <Header />
       <Hero />
+      <MichaelHero />
       <ExclusiveOffersBar />
       <CardFavorite />
       <CurrentDealsCard />
