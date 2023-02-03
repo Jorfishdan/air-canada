@@ -1,12 +1,11 @@
 import "./App.scss";
-import CardFavorite from "./components/CardFavorite/CardFavorite";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import ExclusiveOffersBar from "./components/ExclusiveOffersBar/ExclusiveOffersBar";
 import Hero from "./components/Hero/Hero";
-import CardUnlock from "./components/CardUnlock/CardUnlock";
-import CurrentDealsCard from "./components/CurrentDealsCard/CurrentDealsCard";
+
 import DoMore from "./components/DoMore/DoMore";
+import EveryDay from "./components/EveryDay/EveryDay";
 
 function App() {
   return (
@@ -14,9 +13,7 @@ function App() {
       <Header />
       <Hero />
       <ExclusiveOffersBar />
-      <CardFavorite />
-      <CurrentDealsCard />
-      <CardUnlock />
+      <EveryDay />
       <DoMore />
       <Footer />
     </>

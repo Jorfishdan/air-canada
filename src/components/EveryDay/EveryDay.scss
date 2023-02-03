@@ -1,0 +1,15 @@
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/resets" as *;
+@use "../../styles/partials/typography" as *;
+@use "../../styles/partials/variables" as *;
+
+.everyday {
+  display: flex;
+  padding: 4rem;
+  &__left {
+    width: 55%;
+  }
+  &__right {
+    width: 35%;
+  }
+}
